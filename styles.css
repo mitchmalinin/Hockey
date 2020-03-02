@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+body img {
+  width: 35%;
+}
+
+@media only screen and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  body img {
+    width: 100%;
+  }
+}
